@@ -13,8 +13,8 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21698759'))
-API_HASH = environ.get('API_HASH', ' 5007936001dea01e8788b4de9a235258')
+API_ID = int(environ.get('API_ID', '22876298'))
+API_HASH = environ.get('API_HASH', 'cda7be15fbe283b5b97e8fb8c4233e36')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7570844375:AAG-oMeHi6-YakTixoBk2qEennI8SiZ9LxI')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -41,7 +41,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) #
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', True)
+IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/modiji_link")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/modiji_link")
