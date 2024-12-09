@@ -19,9 +19,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7570844375:AAG40fhN-9lOcd3GLTGsMAP5kpez08y
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '565220764').split()]
-USERNAME = environ.get('USERNAME', "Vishnu_abhyantha") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "Vishnu_Abhyantha") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002407198965'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+TZDPdtx0uN8xOTE1')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/kannadapiratesrequest')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002413996302').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
