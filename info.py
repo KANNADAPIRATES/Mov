@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22876298'))
 API_HASH = environ.get('API_HASH', ' cda7be15fbe283b5b97e8fb8c4233e36')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7570844375:AAG40fhN-9lOcd3GLTGsMAP5kpez08yMiH8')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7570844375:AAG-oMeHi6-YakTixoBk2qEennI8SiZ9LxI')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '565220764').split()]
@@ -49,8 +49,8 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/modiji_link")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "afed68cbf3ce89ff87b82fc92c948a7199752c5b")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'modijiurl.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "b5cf62a27d47ea7e63d26b9d2291bc0a0eb5496a")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'runurl.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "afed68cbf3ce89ff87b82fc92c948a7199752c5b")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'modijiurl.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "b7acb3514c29b8d677bac877653dec87d603c3f0")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'offerlinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
