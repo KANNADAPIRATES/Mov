@@ -13,20 +13,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '22876298'))
+API_HASH = environ.get('API_HASH', ' cda7be15fbe283b5b97e8fb8c4233e36')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7570844375:AAG40fhN-9lOcd3GLTGsMAP5kpez08yMiH8')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-USERNAME = environ.get('USERNAME', "") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
+USERNAME = environ.get('USERNAME', "Vishnu_abhyantha") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002407198965'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/kannadapiratesrequest')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://prajwaludaykumar:GzoBSZRLmcYinwQw@cluster0.vha5j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "prajwaludaykumar")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -43,16 +43,16 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/modiji_link")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/modiji_link")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/modiji_link")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "afed68cbf3ce89ff87b82fc92c948a7199752c5b")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'modijiurl.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "b5cf62a27d47ea7e63d26b9d2291bc0a0eb5496a")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'runurl.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "b7acb3514c29b8d677bac877653dec87d603c3f0")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'offerlinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -69,10 +69,10 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://telegra.ph/file/6e0b82b4b5d3f5606d46d-68790f20231b19da74.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/CSn.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://telegra.ph/file/18fecd9778ebba0527e44-61cddd3aad869ecefd.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
